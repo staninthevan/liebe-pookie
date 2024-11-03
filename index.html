@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Begrüßung</title>
+</head>
+<body>
+    <button onclick="begrüßung()">Klicke hier für eine Begrüßung</button>
+
+    <script>
+        function begrüßung() {
+            let name = prompt("Wie ist dein Name?");
+            if (name) {
+                alert("Hallo, " + name + "! Schön, dich kennenzulernen.");
+            } else {
+                alert("Hallo! Schön, dich kennenzulernen.");
+            }
+        }
+    </script>
+</body>
+</html>
+
